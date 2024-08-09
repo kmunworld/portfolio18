@@ -1,0 +1,378 @@
+.nav {
+    display: flex;
+    background-color: #141414;
+    padding: 24px 90px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    font-family: inter;
+}
+
+h2 {
+    color: white;
+    font-family: inter;
+}
+h3 {
+    color: white;
+    font-family: inter;
+    font-size: 64px;
+    margin: 0px;
+}
+
+p {
+    color: white;
+    font-family: inter;
+    padding-bottom: 16px;
+}
+
+.logo {
+    width: 36px;
+    height: 36px;
+}
+.left {
+    width: 25%;
+}
+
+
+.middle {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.right {
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 25%;
+}
+
+
+.menuItems{
+    color: white;
+    padding: 24px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: inter;
+    transition: transform 0.3s ease;
+}
+
+
+.connectButton {
+    background-color: #007E82;
+    color: white;
+    font-family: inter;
+    font-size: 16px;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-bottom: 16px;
+    padding-right: 20px;
+    width: 50%;
+    border-radius: 20px;
+  }
+.connectButton:hover {
+    background-color: #007e82a7; 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 90px 20px 90px;
+    background-color: #141414;
+}
+
+.text-column, .image-column {
+    flex: 1;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding: 160px 0px 24px 0;
+}
+
+.text-column {
+
+    max-width: 50%;
+}
+
+.image-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+.containerImage {
+    display: absolute;
+    width: 449px;
+    height: 500px;
+}
+
+.casestudy-button {
+    background-color: #007E82;
+    color: white;
+    font-family: inter;
+    font-size: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.casestudy-button:hover {
+    background-color: #007e82a7; /* Darker green */
+}
+
+
+footer {
+    display: flex;
+    background-color: #141414;
+    padding: 24px 90px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-logo {
+    margin-right: 20px;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 20px;
+    display: flex;
+}
+
+.footer-menu li {
+    margin: 0 10px;
+}
+
+.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 24px 0px;
+}
+
+.footer-social {
+    display: flex;
+}
+
+.footer-social a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-social a i {
+    font-size: 20px;
+}
+
+.ux-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 90px;
+    max-width: 1200px;
+    background-color: #141414;
+    margin: 0 auto;
+}
+
+.ux-skills-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.ux-section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ux-section-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.ux-section-header p {
+    font-size: 1.2em;
+    color: #bcbcbc;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.skill {
+    background-color: #646464;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skill h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+
+/* Media Query for responsiveness */
+@media (max-width: 1024px) {
+    .skills-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .ux-section-header h1 {
+        font-size: 2em;
+    }
+    
+    .ux-section-header p {
+        font-size: 1em;
+    }
+    
+    .skill h2 {
+        font-size: 1.3em;
+    }
+    
+    .skill p {
+        font-size: 0.9em;
+    }
+}
+
+.my-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 90px;
+    max-width: 1200px;
+    width: 1200px;
+    background-color: #141414;
+    margin: auto auto;
+}
+
+.my-work-container {
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.section-header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.work-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.work-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #818181;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.work-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.work-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.work-item p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.view-project-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007E82;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.view-project-button:hover {
+    background-color: #0056b3;
+}
+
+/* Media Query for larger screens */
+@media (min-width: 768px) {
+    .work-item {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .work-item img {
+        margin-bottom: 0;
+        margin-right: 20px;
+        max-width: 300px;
+    }
+
+    .work-details {
+        align-items: flex-start;
+    }
+}
